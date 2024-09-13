@@ -156,7 +156,8 @@ int main() {
 
 #### Número de procesos creados:
 
-1. **Primera llamada a `fork()`**: Se crean 2 procesos (padre e hijo).
+* [ ] 1. 
+
 2. **Segunda llamada a `fork()`**: Se crea un nuevo proceso hijo solo dentro del primer proceso hijo, resultando en 3 procesos.
 3. **Tercera llamada a `fork()`**: Esta llamada se ejecuta en todos los procesos existentes (3), creando 3 procesos adicionales.
 
